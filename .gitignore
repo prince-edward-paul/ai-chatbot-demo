@@ -1,50 +1,103 @@
-
-# Python cache files
+# =========================
+# Python cache and compiled files
+# =========================
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*$py.class
 
+# =========================
 # Streamlit secrets
+# =========================
 .secrets.toml
 
-# VS Code files
+# =========================
+# IDE / Editor
+# =========================
 .vscode/
+.idea/       # optional if you use PyCharm
+*.sublime-project
+*.sublime-workspace
 
+# =========================
 # OS system files
+# =========================
 .DS_Store
 Thumbs.db
 
-# Byte-compiled / optimized / DLL files
-*.py[codz]
-*$py.class
-
-# Environments
+# =========================
+# Python environments
+# =========================
 .env
 .envrc
-.venv
+.venv/
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
 
-# Jupyter Notebook
+# =========================
+# Jupyter / IPython
+# =========================
 .ipynb_checkpoints
+profile_default/
+ipython_config.py
 
-# mypy
+# =========================
+# Testing and coverage
+# =========================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# =========================
+# Type checking
+# =========================
 .mypy_cache/
 .dmypy.json
 dmypy.json
-
-# Pyre type checker
 .pyre/
-
-# pytype static type analyzer
 .pytype/
 
-# Cython debug symbols
+# =========================
+# Cython debug
+# =========================
 cython_debug/
 
-# Ruff stuff:
+# =========================
+# Ruff / code linters
+# =========================
 .ruff_cache/
+
+# =========================
+# Distribution / packaging
+# =========================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
