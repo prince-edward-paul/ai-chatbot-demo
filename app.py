@@ -45,7 +45,7 @@ with st.sidebar:
 # =========================
 # App Header
 # =========================
-st.title("🤖 AI Chatbot – Gemini Powered (Next-Level)")
+st.title("🤖 AI Chatbot ")
 st.markdown(
     "Ask a question or select a quick FAQ. Upload PDFs or enter a website URL for enhanced AI responses."
 )
