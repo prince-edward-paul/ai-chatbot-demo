@@ -199,5 +199,4 @@ CLIENT GUIDE:
 
 - The chatbot will automatically use the latest CSV without any code edits.
 
-- Your Gemini API key is stored safely in Streamlit Secrets.
 """
